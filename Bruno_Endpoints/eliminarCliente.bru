@@ -1,0 +1,22 @@
+meta {
+  name: eliminarCliente
+  type: http
+  seq: 3
+}
+
+delete {
+  url: http://localhost:3000/api/eliminarcliente/codigo175
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "nombreBusca":"da"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

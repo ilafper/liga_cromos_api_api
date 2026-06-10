@@ -1,0 +1,15 @@
+meta {
+  name: lista_clientes
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:3000/api/clientes
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
