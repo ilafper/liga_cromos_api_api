@@ -220,7 +220,7 @@ app.post("/api/login", async (req, res) => {
     });
   }
 });
-
+// registro
 app.post("/api/registro", async (req, res) => {
   try {
     const { nombre, correo, password1, password2 } = req.body;
