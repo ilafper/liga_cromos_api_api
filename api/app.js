@@ -211,6 +211,7 @@ app.post("/api/login", async (req, res) => {
       },
     };
 
+    
     res.json(respuesta);
   } catch (error) {
     console.error("Error en login:", error);
